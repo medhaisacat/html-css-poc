@@ -1,0 +1,10 @@
+header {
+    background-color:black;
+    color: red;
+    align-items: center;
+}
+
+button {
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,9 @@
+@keyframes expand {
+    100% {
+        font-size: 200px;
+    }
+}
+
+.expand {
+    animation: expand 3s ease-in-out both;
+}

@@ -1,0 +1,17 @@
+@-webkit-keyframes expand {
+  100% {
+    font-size: 200px;
+  }
+}
+
+@keyframes expand {
+  100% {
+    font-size: 200px;
+  }
+}
+
+.expand {
+  -webkit-animation: expand 3s ease-in-out both;
+          animation: expand 3s ease-in-out both;
+}
+/*# sourceMappingURL=animations.css.map */

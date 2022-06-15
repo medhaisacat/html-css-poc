@@ -10,16 +10,19 @@
             <header>
 
             <nav>
-                <button> Home </button>
-                <button> What's New </button>
-                <button> Movies </button>
-                <button> TV Shows </button>
+                <button class="navigation"> Home </button>
+                <button class="navigation"> What's New </button>
+                <button class="navigation"> Movies </button>
+                <button class="navigation"> TV Shows </button>
             </nav>
 
             <h1 class="expand">NETFLIX</h1>
         </header>
 
-            <div id="carousel">    
+        <div class="card">
+            <button class="arrow"><</button>
+
+            <span id="carousel">    
                 <img src="./images/stranger-things.jpeg">
                 <img src="./images/moon-knight.jpeg">
                 <img src="./images/avengers.jpeg">
@@ -32,7 +35,13 @@
                 <img src="./images/dark.jpeg">
                 <img src="./images/she-hulk.jpeg">
                 <img src="./images/stranger-things.jpeg">
-            </div>
+            </span>
+
+            <button class="arrow">></button>
+        </div>
+
+
+            <script src="./app.js"></script>
         </body>
 
 </html>

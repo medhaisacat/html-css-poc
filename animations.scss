@@ -7,3 +7,28 @@
 .expand {
     animation: expand 3s ease-in-out both;
 }
+
+.card {
+    height: 60%;
+    width: 100%;
+    //padding: 5%;
+    //margin: 10%;
+    background-color: #B1A7A6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+#carousel {
+    @extend .card;
+    width: 80%;
+    overflow-x: auto;
+}
+
+
+.arrow {
+    @extend .card;
+    background-color: #B1A7A67F;
+    font-size: xx-large;
+    width: 10%;
+}

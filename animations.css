@@ -14,4 +14,30 @@
   -webkit-animation: expand 3s ease-in-out both;
           animation: expand 3s ease-in-out both;
 }
+
+.card, #carousel, .arrow {
+  height: 60%;
+  width: 100%;
+  background-color: #B1A7A6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#carousel {
+  width: 80%;
+  overflow-x: auto;
+}
+
+.arrow {
+  background-color: #B1A7A67F;
+  font-size: xx-large;
+  width: 10%;
+}
 /*# sourceMappingURL=animations.css.map */
